@@ -382,10 +382,7 @@ nav .fa-solid:hover{
     opacity: 70%;
     padding-top: 8px;
 }
-@media(max-width: 1250px){
-    .desktop{
-        display: none;
-    }
+@media(max-width: 600px){
     .home-content{
         text-align: center;
     }
