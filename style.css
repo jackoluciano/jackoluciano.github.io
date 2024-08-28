@@ -147,9 +147,7 @@ nav .fa-solid:hover{
     height: 225px;
     position: relative;
     object-fit: cover;
-    margin-right: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10px;
     border-radius: 20px;
 }
 .shsphoto{
@@ -173,9 +171,7 @@ nav .fa-solid:hover{
     opacity: 0;
     background: linear-gradient(to bottom, rgb(245, 209, 209,0), rgb(245, 209, 209, 1));
     height: 100%;
-    margin-right: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10px;
     width: 100%;
     transition: 0.3s;
     position: absolute;
@@ -278,9 +274,7 @@ nav .fa-solid:hover{
     width: 300px;
     height: 400px;
     border-radius: 20px;
-    margin-right: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10px;
 }
 .artphoto1{
     position: relative;
@@ -333,34 +327,35 @@ nav .fa-solid:hover{
     text-align: center;
 }
 .icons{
-    text-align: center;
+    justify-content: center;
     font-size: 22px;
     display: flex;
-    justify-content: space-between;
-    padding-top: 8px;
-    padding-left: 40%;
-    padding-right: 40%;
     cursor: pointer;
 }
 #icons1{
     transition: 0.3s;
     color: black;
+    margin: 10px;
 }
 #icons2{
     transition: 0.3s;
     color: black;
+    margin: 10px;
 }
 #icons3{
     transition: 0.3s;
     color: black;
+    margin: 10px;
 }
 #icons4{
     transition: 0.3s;
     color: black;
+    margin: 10px;
 }
 #icons5{
     transition: 0.3s;
     color: black;
+    margin: 10px;
 }
 #icons1:hover{
     color: rgb(255, 154, 154);
@@ -382,12 +377,20 @@ nav .fa-solid:hover{
     opacity: 70%;
     padding-top: 8px;
 }
-@media(max-width: 600px){
+.artkes{
+    text-align: center;
+}
+@media(max-width: 800px){
+    .home{
+        display: flex;
+        justify-content: center;
+    }
     .home-content{
         text-align: center;
     }
     .header{
         width: 50%;
+        right: -50%;
     }
     .nav-links a{
         font-size: 13px;
@@ -412,6 +415,13 @@ nav .fa-solid:hover{
         width: 160px;
         height: 120px;
         margin: 0px;
+        display: inline-block;
+    }
+    .shsphoto{
+        width: 160px;
+        height: 120px;
+        margin: 0px;
+        display: inline-block;
     }
     .layerband{
         margin: 0px;
@@ -424,6 +434,9 @@ nav .fa-solid:hover{
     }
     .pianoarr{
         display: inline-block;
+    }
+    .musickes{
+        text-align: center;
     }
     .musicphoto{
         margin: 7px;
@@ -441,5 +454,94 @@ nav .fa-solid:hover{
     }
     .layerart{
         height: 200px;
+    }
+    .music-content h1{
+        text-align: center;
+    }
+    .art-content h1{
+        text-align: center;
+    }
+}
+@media(min-width: 800px) and (max-width:1300px){
+    .home{
+        display: flex;
+        justify-content: center;
+    }
+    .home-content{
+        text-align: center;
+    }
+    .header{
+        width: 50%;
+        right: -50%;
+    }
+    .nav-links a{
+        font-size: 20px;
+    }
+    .home-content h1{
+        font-size: 35px
+    }
+    .home-content h3{
+        font-size: 17px;
+    }
+    .me{
+        display: inline-block;
+        text-align: center;
+        min-height: 80vh;
+    }
+    .me img{
+        margin-top: 30px;
+    }
+    .shs{
+        text-align: center;
+        min-height: 60vh;
+    }
+    .shsphoto1{
+        width: 180px;
+        height: 135px;
+        margin: 0px;
+    }
+    .shsphoto{
+        width: 180px;
+        height: 135px;
+        margin: 0px;
+    }
+    .layerband{
+        margin: 0px;
+    }
+    .shs h5{
+        font-size: 10px;
+    }
+    .musickes{
+        text-align: center;
+    }
+    .musicphoto{
+        margin: 7px;
+        width: 240px;
+    }
+    .musicphoto1{
+        width: 240px;
+    }
+    .layermusic{
+        height: 135px;
+    }
+    .art{
+        min-height: 70vh;
+    }
+    .artphoto{
+        width: 165px;
+        height: 220px;
+    }
+    .artphoto1{
+        width: 165px;
+        height: 220px;
+    }
+    .layerart{
+        height: 220px;
+    }
+    .music-content h1{
+        text-align: center;
+    }
+    .art-content h1{
+        text-align: center;
     }
 }
