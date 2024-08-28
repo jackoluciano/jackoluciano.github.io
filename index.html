@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jek's personal web</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+<div class="desktop">
+    <nav>
+    <header class="header" id="HEADER">
+        <i class="fa-solid fa-xmark" onclick="hidemenu()" accesskey="0"></i>
+        <ul class="nav-links">    
+            <li><a onclick="scrollToSection('section1')" accesskey="1">welcome</a></li>
+            <li><a onclick="scrollToSection('section2')" accesskey="2">me</a></li>
+            <li><a onclick="scrollToSection('section3')" accesskey="3">shs</a></li>
+            <li><a onclick="scrollToSection('section4')" accesskey="4">music</a></li>
+            <li><a onclick="scrollToSection('section5')" accesskey="5">art</a></li>
+            <li><a onclick="scrollToSection('section6')" accesskey="6">socials</a></li>
+        </ul>
+    </header>
+    <i class="fa-solid fa-bars" onclick="showmenu()" id="HEADER" accesskey="9"></i>
+    <section id="section1" class="home">
+        <div class="home-content">
+            <h1>konnichiwa, Jacko-desu!</h1>
+            <h3>currently having my first year in STEI-K ITB. you're about to embark on a journey into my world. i'm open to any type of suggestion regarding this website. yoroshiku negaishimasu!</h3>
+            <button onclick="scrollToSection('section2')" class="btn1">shall we?</button>
+            <button onclick="scrollToSection('section6')" class="btn1">contact me!</button>
+        </div>
+    </section>
+    </nav>
+
+<script>
+    var HEADER = document.getElementById("HEADER");
+    function showmenu(){
+        HEADER.style.right = "0";
+    }
+    function hidemenu(){
+        HEADER.style.right = "-400px";
+    }
+</script>
+
+<!---scrollintoview script--->
+
+<script>
+    function scrollToSection(sectionId) {
+        const section = document.getElementById(sectionId);
+        if (section) {
+            section.scrollIntoView({ behavior: 'smooth' });
+        } else {
+            console.error('Section not found:', sectionId);
+        }
+    }
+</script>
+
+
+<!---me--->
+
+    <section id="section2" class="me">
+        <div class="me-content">
+        <h1>about me !</h1>
+        <p>hi gays nma gua jacko, biasa dipanggil jack, jek, jac, ko (sesuai preferensi msing2 ajh tp gua bkn donat akskajdakbed) gua kelahiran Prabumulih, Sumatera Selatan,
+            sebuah kota yg kyk momogi, soalnya isiny dikit buakakakakakak</p><br>
+            <p>gua anak terakhir, pnya dua cece, dua ortu masih lengkap. gua bersyukur udah disupport smpe di titik ini ciaela gaya lo emg titik apaan</p><br>
+            <p>gua kuliah di itebeh ͡° ͜ʖ ͡°</p>
+            <p>di balik muka gua yg biasa2 aja, gua bersyukur bgt bisa masuk stei-k jalur snbt i mean gua top3 kh skrg yooooo hype fr yaaa gua berharap kedepanny makin byk yg dri Prabu masuk itebeh terkhususny stei-k krn ini bergengsi bgt slebw</p><br>
+            <p>inimah website perkenalan bkn porto jd gua spill aj kl gua sbnrny bego muehehe gua seneng mtk bukan berarti gua jago y, programming jg yaaah html css js tipis2lah atleast ngerti dasar dlu. sisanya gua msih blm tau mw ngapain di stei-k</p><br>
+            <p>enjoy your stay yh tman2 ๑>ᴗ<๑</p>
+        </div>
+        <div class="fotoguweh"><img src="images/guweh.jpg"></div>
+    </section>
+
+    <section id="section3" class="shs">
+            <h1>shs life</h1>
+            <p>gua bersma di sma unggulan di prabu, nmany sma negeri 1 Prabumulih, and boy it's been a blast. studi gua ok, temen gua banyak, mungkin bkl gua spill bbrp hal yang gua kerjakan slm sma muehehe</p><br>
+    
+    <div class="roror">        
+    <div class="rawr">
+        <div class="row">
+            <div class="shsphoto1"><img class="shsphoto" src="images/band1.jpg">
+                <div class="layerband"><h5>jd keyboardist smansa band, kebetulan lgsg borong juara di dua lomba</h5></div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="shsphoto1"><img class="shsphoto" src="images/band2.jpg">
+                <div class="layerband"><h5>ini pas tampil di panggung festival musik daerah 2021 kota prabumulih</h5></div>
+            </div>
+        </div>
+    </div>    
+
+    <div class="rawr">
+        <div class="row">
+            <div class="shsphoto1"><img class="shsphoto" src="images/tikus1.jpg">
+                <div class="layerband"><h5>ini proses pembuatan karya inovasi buat pameran roadshow KPK 2022</h5></div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="shsphoto1"><img class="shsphoto" src="images/tikus2.jpg">
+                <div class="layerband"><h5>tim gua dlm pembuatan karya tersebut (gaada foto pas hari-hnya bwang)</h5></div>
+            </div>
+        </div>
+    </div></div>
+
+    <div class="roror">
+    <div class="rawr">
+        <div class="row">
+            <div class="shsphoto1"><img class="shsphoto" src="images/whavyle.jpg">
+                <div class="layerband"><h5>gua jd ketua english club dgn nama the whavyle di thn pertama (salah satu perintis jg), dan trainee di thn kedua</h5></div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="shsphoto1"><img class="shsphoto" src="images/osis.jpg">
+                <div class="layerband"><h5>mengemban tugas sbg wakil ketua osis (ga serius2 amat)</h5></div>
+            </div>
+        </div></div>
+
+    <div class="rawr">
+        <div class="row">
+            <div class="shsphoto1"><img class="shsphoto" src="images/mgmp1.jpg">
+                <div class="layerband"><h5>juara 1 lomba matematika kategori perorangan oleh MGMP 2022 event berkelas BGT</h5></div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="shsphoto1"><img class="shsphoto" src="images/mgmp2.jpg">
+                <div class="layerband"><h5>yg ini pembagian hadiah juara 1 lomba matematika kategori beregu brg bu novi (shoutout bwat azka sm niken)</h5></div>
+            </div>
+        </div>
+    </div></div>
+
+    <div class="roror">
+        <div class="rawr">
+            <div class="row">
+                <div class="shsphoto1"><img class="shsphoto" src="images/osn.jpg">
+                    <div class="layerband"><h5>ini pelaksanaan osn-p matematika ends up dapet juara 5 provinsi. fyi gua udah nungguin juara dari sd wkawakw</h5></div>
+                </div>
+            </div>
+    
+            <div class="row">
+                <div class="shsphoto1"><img class="shsphoto" src="images/fls2n2.jpg">
+                    <a href="https://drive.google.com/file/d/1TZ4O2rXWAk-o9tTAjmbWQXZYtlF7bhIA/view?usp=drivesdk" target="_blank"><div class="layerband" href><h5>proses pembuatan lagu jadilah inspirasi untuk FLS2N 2023 kategori cipta lagu (cukup ambisius tp kalah im ok im fine) [click to preview]</h5></div></a>
+                </div>
+            </div></div>
+    
+        <div class="rawr">
+            <div class="row">
+                <div class="shsphoto1"><img class="shsphoto" src="images/frozen2.jpg">
+                    <div class="layerband"><h5>tugas teater frozen sastra inggris, nyusun suara, visual, properti, sm koreografi bareng kelompok scr mandiri</h5></div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="shsphoto1"><img class="shsphoto" src="images/filpen3.jpg">
+                    <a href="https://youtu.be/RJlbJA1Pisc?si=Ut_dYr0ckTJ6upu3" target="_blank"><div class="layerband"><h5>jd director film pendek genre misteri, dari nyusun jadwal nyiapin set sampe syuting ribet cok [click to preview]</h5></div></a>
+                </div>
+            </div>
+        </div></div>
+
+    </section>
+
+    <section id="section4" class="music">
+        <div class="music-content">
+            <h1>music</h1>
+            <p>as some of you might know, gua suka bgt musik. keberangkatan pertama gua dari classical music (ada masanya gua bener bener gila rach tchaik dan music theory), lalu dijembatani
+                jacob collier dan laufey memperkenalkan gua ke jazz (and yes it was around covid soo i've acknowledge them for quite a while), mulai gila jazz grgr duo louis armstrong sm ella fitzgerald, kl piano bill evans sm keith jarrett,
+                gua jg sempet suka j-pop dari dengerin ost suzumeny radwimps, dari situ masuk dengerin kenshi yonezu, eve, queen bee, miku (?) jkt48 is another preference tp jgn panggil gua wota, dan somehow i arrived here, indie, a music
+                felt quite like a home to me, tempat gua pada akhirnya bisa jujur dan eksplor diri sendiri. fav indie artist gua banda neira, baskara, parade hujan, nadin, gua jg br mulai dengerin bilal. itu sdikit ttg selera musik gua</p><br>
+
+            <p>gua jg bisa main musik, mainly piano sm gitar, percayalah gua udh latihan biola setengah mati, tp all i can do is ngik ngik. gua belajar piano dari kelas 2 sd, mulai seriusnya pas smp. kalau gitar gua mulai belajar dari sma keknya.
+                cita" gua mw jadi musisi freelance tur ke ujung dunia punya tim sendiri. sounds legit? kita liat kedepannya buakakakakak btw these are some projects i've been working on these past few years</p><br>
+        </div>
+
+        <h4>ini proyek-proyek acapella based</h4>
+        <div class="pianoarr">
+            <div class="musicphoto">
+                <img class="musicphoto1" src="images/blackbird.jpg">
+                <div class="layermusic"><a href="https://www.instagram.com/reel/CuRI0ZavTEb/?igsh=MWwxcjQ4d2kwemo4aw=="><h5>first time gua ngerilis proyek nyanyi, ini masa gua kecanduan make mic soundtech [click to preview]</h5></a></div>
+            </div>
+
+            <div class="musicphoto">
+                <img class="musicphoto1" src="images/christmas.jpg">
+                <div class="layermusic"><a href="https://www.instagram.com/reel/C1PuneYBjZX/?igsh=eDZvMXRweHp3a2Yz"><h5>gua rilis pas natal, ini eksperimen si ngotak atik eq biar jd kek efek retro, cuma dawny jelek awkakw. nevertheless harmonyny enak [click to preview]</h5></div></a>
+            </div>
+
+            <div class="musicphoto">
+                <img class="musicphoto1" src="images/rayuan.jpg">
+                <a href="https://www.instagram.com/reel/C7qCdNFBF5N/?igsh=MWY0dWlpbjBmMW45ZA=="><div class="layermusic"><h5>ini first time nyusun four-part harmony, awalnya buat biola tp kurang jago yh, jd liriknya gua mainin hehe (dgr bagian indah permai cobak) [click to preview]</h5></a></div>
+            </div>
+        </div>
+
+        <h4>ini proyek-proyek piano arrangement</h4>
+        <div class="pianoarr">
+            <div class="musicphoto">
+                <img class="musicphoto1" src="images/agnus.jpg">
+            <div class="layermusic"><a href="https://www.instagram.com/reel/CqyHzUwhiOl/?igsh=MThiemU5M2UzaDM1Mw=="><h5>gua masih suka bgt ini full improv di depan piano, satu melodi dikembangin jd byk variasi, i myself consider this my best harmony creation [click to preview]</h5></a></div>
+        </div>
+            
+            <div class="musicphoto">
+                <img class="musicphoto1" src="images/pelangi.jpg">
+            <div class="layermusic"><a href="https://www.instagram.com/reel/CvjmPIBrx0p/?igsh=MXZxMDBpdnkxcHVsYw=="><h5>gua sempet gila dengerin hivi! jgak, gua masi inget throwing in c#aug/c#, nasty but spicy ahay [click to preview]</h5></a></div>
+        </div>
+            
+            <div class="musicphoto">
+                <img class="musicphoto1" src="images/rapsodi.jpg">
+            <div class="layermusic"><a href="https://www.instagram.com/reel/C0CUgK2hA9R/?igsh=ZnQ1aDBmY3E5ODVi"><h5>ada chord sequence menarik pas lirik dimakan hati, pokoknya ini rapi bgt klian hrs dgr [click to preview]</h5></a></div>
+        </div>
+        
+        </div>
+
+        <h4>ini proyek-proyek lain (+check my spotify)</h4>
+        <div class="pianoarr">
+            <div class="musicphoto">
+                <img class="musicphoto1" src="images/rach.jpg">
+            <div class="layermusic"><a href="https://www.instagram.com/reel/C5TFMPlBbZ_/?igsh=eHRxM3l2N2VwdHhl-"><h5>ini first rachmaninoff after years. seru sih, leapsny banyak bgt akwoakwoak [click to preview]</h5></a></div>
+        </div>
+
+            <div class="musicphoto">
+                <img class="musicphoto1" src="images/dyw.jpg">
+            <div class="layermusic"><a href="https://musescore.com/user/32051129/scores/5941950?share=copy_link"><h5>sheet music kedua yang gua rilis dan meledak di musescore, 4 tahun kemudian gua benerin lg karna banyak yg ngaco [click to preview]</h5></a></div>
+        </div>
+
+            <div class="musicphoto">
+                <img class="musicphoto1" src="images/spo.jpg">
+            <div class="layermusic"><a href="https://open.spotify.com/user/loydiwqs6ndkqqlmv8rv3kess?si=669ca7fa8d374930"><h5>explore my playlist slbew ayo mutualan [click to preview]</h5></a></div>
+        </div>
+
+        </div>
+    </section>
+
+    <section id="section5" class="art">
+        <div class="art-content">
+            <h1>art</h1>
+            <p>gua SUKA BANGET gambar. kyknya mulai serius gambar dulu thnan 2021. itu blm punya artstyle, masih gambar portrait dari reference. br mulai tau artstyle setelah megang drawing pen, tp masih blm jelas karna masi asal coret awkakw.
+                nemu artstyle yg lumayan konsisten sejak baca manga jjk HAHAHHAAHA i worship over akutami's drawing style (no i fucking hate him)
+            </p><br>
+            <p>my favorite drawing tool currently akrilik sii, second pick gua drawing pen buat sketch kasar (better yg dual tip sm spidol BEEUHHH). akhir-akhir ini sukak pke brushpen jg, tp kertasny kadang jd jelek kl ditumpuk.
+                gua dulu sempet suka pensil warna tp teksturnya g bgt dan musti sabar. bnr-bnr sabar. these are some of my proudest piece of art
+            </p><br>
+        </div>
+
+        <div class="arto">
+            <div class="artphoto">
+                <img class="artphoto1" src="images/totoro.jpg"></a>
+                <div class="layerart"><h5>totoro, gua gambar ini pake akrilik sm spidol buat outline, buat custom kotak art supply</h5></div>
+            </div>
+
+            <div class="artphoto">
+                <img class="artphoto1" src="images/goj.jpg"></a>
+                <div class="layerart"><h5>ini sketch kasar gojo gua pake drawing pen snowman tip 0.7, jujur gua udah lupa proporsi mukanya skrg HAHAHAHAHA</h5></div>
+            </div>
+
+            <div class="artphoto">
+                <img class="artphoto1" src="images/chap229.jpg"></a>
+                <div class="layerart"><h5>gua gambar untuk custom buku persiapan pretest kmrn pake one of the best (and cheap) dual-tip marker, joyko pm-31 (g disponsorin actually bagus dipake di kertas jgn di permukaan licin)</h5></div>
+            </div>
+
+            <div class="artphoto">
+                <img class="artphoto1" src="images/mahoraga.jpg"></a>
+                <div class="layerart"><h5>kayaknya pertama kalinya gua kinda bikin model sendiri (?) well pake reference dikit but still hhe. ini pake brushpen snowman cuy</h5></div>
+            </div>
+
+        </div>
+
+        <div class="arto">
+            <div class="artphoto">
+                <img class="artphoto1" src="images/musashi.jpg">
+                <div class="layerart"><h5>funfact gua gambar miyamoto musashi ini di mobil dalam kondisi sangat goyang, pake drawing pen sm soft charcoal (tbh makenya gaenak bgt, kayak pensil warna item)</h5></div>
+            </div>
+            
+            <div class="artphoto">
+                <img class="artphoto1" src="images/hinata.jpg">
+                <div class="layerart"><h5>gambar hinata ni pas gila haikyuu, trs sekalian nyobain sketchbook baru dari kertas padi gtu (spoiler: gaenak) warnanya sendiri pake brushpen</h5></div>
+            </div>
+            
+            <div class="artphoto">
+                <img class="artphoto1" src="images/sukuna.jpg">
+                <div class="layerart"><h5>ini gambaran pertama pas nyampe jatinangor grgr gabut di mobil. dan ya, bnr-bnr goyang makanya ad bbrp line inconsistency. gambarnya pake joyko pm-31 debestla</h5></div>
+            </div>
+        
+            <div class="artphoto">
+                <img class="artphoto1" src="images/yoda.jpg">
+                <div class="layerart"><h5>kykny ini pertama kali gua ngotak atik akrilik deh buat tugas seni budaya, krn media gambarny pke kanvas dan gua gmungkin pake pensil warna cok awkakwkak</h5></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="section6" class="socials">
+        <h2>reach out to my socials!</h2>
+        <div class="icons">
+            <a href="mailto:jackoluciano14@gmail.com"><i class="fa-regular fa-envelope" id="icons1"></i></a>
+            <a href="https://www.instagram.com/jacko_luciano14/" target="_blank"><i class="fa-brands fa-instagram" id="icons2"></i></a>
+            <a href="https://www.tiktok.com/@lowcianote" target="_blank"><i class="fa-brands fa-tiktok" id="icons3"></i></a>
+            <a href="https://www.youtube.com/@jackoluciano14" target="_blank"><i class="fa-brands fa-youtube" id="icons4"></i></a>
+            <a href="https://www.discordapp.com/users/568820244555235358" target="_blank"><i class="fa-brands fa-discord" id="icons5"></i></a>
+        </div>
+        <h5>until next time ๑>ᴗ<๑ - jackoluciano</h5>
+    </section>
+</div>
+<style>
+    #message {
+      display: none;
+    }
+    
+    @media (max-width: 1250px){
+      #message {
+        display: block;
+      }
+    }
+    </style>
+    
+    <h1 id="message">Please use this on a desktop or use desktop view</h1>
+</body>
+</html>
