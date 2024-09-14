@@ -38,7 +38,7 @@ body{
 .nav-links{
     list-style: none;
     position: absolute;
-    padding: 2% 6%;  
+    padding: 10px;  
     justify-content: space-between;
 }
 .nav-links a{
@@ -105,14 +105,15 @@ header .fa-solid{
     z-index: 100;
     color: black;
     padding: 10px;
+    justify-content: right;
     font-size: 22px;
     cursor: pointer;
     transition: 0.3s;
 }
-body .fa-solid{
+div .fa-solid{
     position: fixed;
     color: black;
-    padding: 10px;
+    padding: 10px 98%;
     font-size: 22px;
     cursor: pointer;
     transition: 0.3s;
