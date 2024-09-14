@@ -112,8 +112,9 @@ header .fa-solid{
 }
 div .fa-solid{
     position: fixed;
+    right: 0;
     color: black;
-    padding: 10px 98%;
+    padding: 10px;
     font-size: 22px;
     cursor: pointer;
     transition: 0.3s;
