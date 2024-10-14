@@ -359,6 +359,11 @@ nav .fa-solid:hover{
     color: black;
     margin: 10px;
 }
+#icons6{
+    transition: 0.3s;
+    color: black;
+    margin: 10px;
+}
 #icons1:hover{
     color: rgb(255, 154, 154);
 }
@@ -372,6 +377,9 @@ nav .fa-solid:hover{
     color: rgb(255, 154, 154);
 }
 #icons5:hover{
+    color: rgb(255, 154, 154);
+}
+#icons6:hover{
     color: rgb(255, 154, 154);
 }
 .socials h5{
