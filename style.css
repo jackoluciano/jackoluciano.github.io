@@ -259,6 +259,70 @@ nav .fa-solid:hover{
     text-align: justify;
     color: black;
 }
+.coding{
+    width: 100%;
+    padding: 5%;
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, rgb(245,245,245,1),rgb(245, 209, 209,0.4), rgb(245,245,245,1)), url(images/totoro0012.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.coding h1{
+    font-size: 30px; 
+    font-weight: bolder;
+}
+.coding h4{
+    font-weight: 700;
+    text-align: center;
+}
+.coding p{
+    text-align: justify;
+}
+.pythonphoto{
+    position: relative;
+    width: 300px;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.pythonphoto1{
+    position: relative;
+    width: 300px;
+    border-radius: 20px;
+    filter: saturate(0) drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.225)) brightness(1.4);
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.layerpython{
+    opacity: 0;
+    background: linear-gradient(to bottom, rgb(245, 209, 209,0), rgb(245, 209, 209, 1));
+    height: 180px;
+    margin: 0px;
+    width: 100%;
+    transition: 0.3s;
+    position: absolute;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+.layerpython:hover{
+    opacity: 100%;
+}
+.layerpython h5{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 5%;
+    text-align: justify;
+    color: black;
+}
+.python{
+    display: flex;
+    justify-content: center;
+}
 .art{
     width: 100%;
     padding: 5%;
@@ -451,6 +515,19 @@ nav .fa-solid:hover{
     .musicphoto{
         margin: 7px;
     }
+    .python{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .pythonphoto{
+        margin: 7px;
+        width: 300px;
+    }
+    .layerpython{
+        margin-top: 10px;
+        height: 168.75px;
+    }
     .arto{
         display: inline-block;
     }
@@ -469,6 +546,9 @@ nav .fa-solid:hover{
         text-align: center;
     }
     .art-content h1{
+        text-align: center;
+    }
+    .codingproject h1{
         text-align: center;
     }
 }
@@ -532,6 +612,20 @@ nav .fa-solid:hover{
         width: 240px;
     }
     .layermusic{
+        height: 135px;
+    }
+    .proyek{
+        text-align: center;
+    }
+    .pythonphoto{
+        margin: 7px;
+        width: 240px;
+    }
+    .pythonphoto1{
+        width: 240px;
+    }
+    .layerpython{
+        margin-top: 10px;
         height: 135px;
     }
     .art{
