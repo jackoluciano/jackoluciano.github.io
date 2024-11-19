@@ -347,14 +347,12 @@ nav .fa-solid:hover{
     width: 300px;
     height: 400px;
     border-radius: 20px;
-    filter: saturate(0) drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.225));
-    margin: 10px;
+    filter: saturate(0) drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.225));
 }
 .layerart{
     opacity: 0;
     background: linear-gradient(to bottom, rgb(245, 209, 209,0), rgb(245, 209, 209, 1));
-    height: 400px;
-    margin: 10px;
+    height: 400px;
     width: 100%;
     transition: 0.3s;
     position: absolute;
