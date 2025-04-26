@@ -1,1 +1,1 @@
-my first ever website!
+website perkenalan diri yang bukan portofolio
